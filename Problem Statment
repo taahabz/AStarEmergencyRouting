@@ -1,0 +1,20 @@
+Introduction
+• The objective of this open-ended lab is to design an AI system that determines the most efficient routes for fire trucks responding to emergency calls in a city. 
+The goal is to optimize response time while accounting for dynamic conditions like road blockages and changing traffic patterns.
+
+Objectives
+•	To design an AO system for determining the most efficient routes for fire trucks. 
+
+Data
+1.	City Grid Layout: A 10 × 10 grid representing a simplified city layout. Each cell represents a road segment and an intersection. The diagram for the layout is given in the data file uploaded on LMS. 
+2.	Traffic Data: Each road segment has an average travel speed that varies by time of the day. Moreover, data about road closures is also available in the data file. 
+3.	Emergency call locations: Emergency call locations and their times are also given in the data file.
+4.	Fire station locations: 
+      Fire Station	Coordinates
+      Fire Station 1	(1,1)
+      Fire Station 2	(10,10)
+
+Task Requirements:
+1.	Algorithm Development: Design an AI system to find the fastest route from a given fire station to an emergency site. 
+2.	Adaptive Strategy: The AI agent should be able to adapt to real-time changes such as road blockages and updated speeds. 
+3.	Performance Evaluation: Measure the effectiveness of the chosen approach using metrics like total response time and number of successful navigations.
