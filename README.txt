@@ -61,6 +61,6 @@ The city grid and routes are visualized using NetworkX and Matplotlib. Key visua
 • Fire Truck Routes: Colored paths.
 
 Usage
-Ensure all dependencies are installed:
+Ensure all dependencies are installed if not use pip to install:
 • matplotlib
 • networkx
